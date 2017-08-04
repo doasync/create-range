@@ -1,0 +1,11 @@
+{
+  "name": "create-range",
+  "version": "1.0.0",
+  "description": "Create an array of integers from any to any",
+  "main": "index.js",
+  "keywords": [
+    "range"
+  ],
+  "author": "doasync",
+  "license": "MIT"
+}
