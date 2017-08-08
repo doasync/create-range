@@ -1,7 +1,7 @@
-Init jQuery
+Create range
 ===================
 
-Init jQuery on any Window object (NodeJS, JSDOM)
+Creates an array of integers from start up to end. Always returns an array. Never throws any errors.
 
 ----------
 
@@ -9,7 +9,7 @@ Installation
 -------------
 
 ```bash
-npm i --save init-jquery
+npm i --save create-range
 ```
 
 Usage
@@ -23,6 +23,7 @@ const fromTenToTwenty = createRange(10, 20);
 
 const minusPlusFifty = createRange(-50, 50);
 // [-50, -49, ... , 49, 50]
-```
 
-Returns an array. Always. Never throws any errors. Browser compatible.
+const x = createRange(-Infinity, undefined);
+// []
+```
